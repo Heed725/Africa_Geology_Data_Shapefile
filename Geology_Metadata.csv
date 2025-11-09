@@ -1,0 +1,46 @@
+short_form_name,long_form_name
+C,Carboniferous
+CD,Carboniferous-Devonian
+Cm,Cambrian
+D,Devonian
+DS,Devonian-Silurian
+Du,Upper/Middle Devonian
+H2O,Water (River or Lake)
+J,Jurassic
+JC,Jurassic-Carboniferous
+Jl,Lower Jurassic
+JTr,Jurassic-Triassic
+K,Cretaceous
+KC,Cretaceous-Carboniferous
+KI,Lower Cretaceous
+KJ,Cretaceous-Jurassic
+Kimb,Kimberlites
+Kl,Lower Cretaceous
+Mi,Mesozoic Igneous
+MiPi,Mz-Pz Igneous
+Mz,Mesozoic
+MzPz,Mesozoic-Paleozoic
+O,Ordovician
+OCm,Ordovician-Camrian
+oth,Others
+P,Permian
+PC,Permian-Carboniferous
+Pi,Paleozoic Igneous
+pCm,Precambrian
+Pz,Paleozoic
+PzpC,Paleozoic-Precambrian
+Q,Quaternary (undivided)
+Qe,Holocene
+Qp,Pleistocene
+QT,Cenozoic
+Qv,Quaternary Igneous
+S,Silurian
+S_d,Salt Domes
+SEA,Sea
+SO,Silurian-Ordovician
+T,Tertiary
+Ti,Tertiary Igneous
+TK,Tertiary-Cretaceous
+Tr,Triassic
+Trl,Lower Triassic
+TrP,Triassic-Permian
