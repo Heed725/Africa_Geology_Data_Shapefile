@@ -27,7 +27,7 @@ def categorize_joined_geological_layer():
     """
     
     # Get the layer named "Joined layer"
-    layer = QgsProject.instance().mapLayersByName('Joined layer')
+    layer = QgsProject.instance().mapLayersByName('Africa_Geological_Data')
     
     if not layer:
         iface.messageBar().pushMessage(
