@@ -1,0 +1,45 @@
+name,color
+Cambrian,#99B575
+Carboniferous,#67A19F
+Carboniferous-Devonian,#7FA582
+Cenozoic,#FEF21C
+Cretaceous,#7FCD60
+Cretaceous-Carboniferous,#73B97E
+Cretaceous-Jurassic,#99C88C
+Devonian,#CB8C37
+Devonian-Silurian,#D69A46
+Holocene,#FFF67F
+Jurassic,#34B2D9
+Jurassic-Carboniferous,#52BDDC
+Jurassic-Triassic,#70C8DD
+Kimberlites,#000000
+Lower Cretaceous,#8CD357
+Lower Jurassic,#BFE7ED
+Lower Triassic,#B384BB
+Mesozoic,#67C1E3
+Mesozoic Igneous,#E85838
+Mesozoic-Paleozoic,#88B387
+Mz-Pz Igneous,#D13D28
+Ordovician,#009270
+Ordovician-Camrian,#4DB08E
+Others,#B0B0B0
+Paleozoic,#99C68E
+Paleozoic Igneous,#CB372D
+Paleozoic-Precambrian,#7A9D70
+Permian,#F04028
+Permian-Carboniferous,#EA5339
+Pleistocene,#FFF2B3
+Precambrian,#F7437C
+Quaternary (undivided),#FFF9BF
+Quaternary Igneous,#A0522D
+Salt Domes,#FFFFFF
+Sea,#57B3DF
+Silurian,#B3E1B6
+Silurian-Ordovician,#BFE6BF
+Tertiary,#FD9A52
+Tertiary Igneous,#C73E3A
+Tertiary-Cretaceous,#FDAD62
+Triassic,#812B92
+Triassic-Permian,#A45FA1
+Upper/Middle Devonian,#E5AD6B
+Water (River or Lake),#0052CC
