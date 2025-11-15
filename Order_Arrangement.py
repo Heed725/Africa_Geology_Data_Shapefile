@@ -84,18 +84,14 @@ def categorize_joined_geological_layer():
     for feature in layer.getFeatures(request):
         order = feature['order']
         color = feature['color']
-        name = feature[period_field] if period_field else f"Order {order}"
         
-        # Safely get era field if it exists
-        era = ''
-        if 'era' in field_names:
-            era = feature['era'] if feature['era'] else ''
+        # Get the name field value
+        name = feature[period_field] if period_field and period_field in field_names else f"Order {order}"
         
         if order not in categories_data:
             categories_data[order] = {
                 'color': color,
-                'name': name,
-                'era': era
+                'name': name
             }
     
     # Sort by order
@@ -109,7 +105,6 @@ def categorize_joined_geological_layer():
         data = categories_data[order]
         color_hex = data['color']
         name = data['name']
-        era = data['era']
         
         # Create symbol
         symbol = QgsSymbol.defaultSymbol(geom_type)
@@ -130,11 +125,8 @@ def categorize_joined_geological_layer():
             symbol.symbolLayer(0).setStrokeWidth(0.26)
             symbol.setOpacity(0.9)
         
-        # Create label
-        if era:
-            label = f"{name} ({era}) - Order {order}"
-        else:
-            label = f"{name} - Order {order}"
+        # Create label - only the name
+        label = str(name)
         
         # Create category
         category = QgsRendererCategory(
